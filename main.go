@@ -36,7 +36,7 @@ func main() {
 // pingIp ping ip address to check power is up
 func pingIp(ip string, timeout int) {
 
-	var failCount int = 0
+	var failCount = 0
 
 	fmt.Println("Start pinging IP address:" + ip + " timeout:" + strconv.FormatInt(int64(timeout), 10) + "mins")
 
